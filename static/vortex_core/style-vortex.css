@@ -346,8 +346,11 @@ a small{
     visibility: hidden;
 }
 
-#footer .footer-widgets-wrap {
+#footer-vxt .footer-widgets-wrap {
     padding: 22px 0;
+}
+#footer-vxt {
+    background: url("../vortex_core/img/background.png"),rgb(0, 0, 0, 0.5);
 }
 
 .div-contato-vtx {
@@ -363,6 +366,9 @@ a small{
     visibility: hidden;
 }
 
+.content-wrap {
+    margin-bottom: -110px;
+}
 /* == Home == */
 
 .capa{

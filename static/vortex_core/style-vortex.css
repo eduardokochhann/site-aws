@@ -97,6 +97,10 @@ footer.dark {
     margin-bottom: 20px;
 }
 
+.nosso-fim-vtx {
+    visibility: visible;
+}
+
 /* ================================ Home =================================== */
 /* == Primeira sessão == */
 
@@ -236,9 +240,6 @@ footer.dark {
     padding-top: 140px;
 }
 
-.nosso-fim-vtx {
-    visibility: hidden;
-}
 /* ============================== Briefing ================================= */
 
 /* == Layout == */

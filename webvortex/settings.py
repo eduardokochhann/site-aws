@@ -1,5 +1,5 @@
 from pathlib import Path
-import django_heroku, os
+import os
 from django.contrib.messages import constants as messages
 
 MESSAGE_TAGS = {
@@ -23,7 +23,7 @@ SECRET_KEY = 'django-insecure-r%h(w2fgcr2bb^tsdd=iv##f^2huo7n4i-t@4_&x3(5!wtt(eg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -129,4 +129,3 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Activate Django-Heroku.
-django_heroku.settings(locals())

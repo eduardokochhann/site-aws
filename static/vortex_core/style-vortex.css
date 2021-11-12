@@ -78,10 +78,12 @@
     position: relative;
 }
 /* == > Rodapé < == */
-
-
-footer.dark {
-    background: url('/static/vortex_core/img/background.png') no-repeat;
+#footer-vxt {
+    color: rgba(255,255,255,0.75);
+    background: url("../vortex_core/img/background.png"),rgb(0, 0, 0, 0.7);
+    border-top-color: rgba(255,255,255,0.15);
+    position: relative;
+    border-top: 2px solid rgb(249 249 249 / 20%);    
 }
 
 #copyrights{
@@ -101,6 +103,9 @@ footer.dark {
     visibility: visible;
 }
 
+.stretched #gotoTop:hover {
+    background: rgb(127,243,253);
+}
 /* ================================ Home =================================== */
 /* == Primeira sessão == */
 
@@ -283,7 +288,7 @@ footer.dark {
     font-weight: 700;
     text-shadow: none;
     margin-top: 25px;
-    margin-left: -12px;
+    margin-left: 0;
 }
 
 .btn-vortex-p14 {
@@ -291,6 +296,11 @@ footer.dark {
     text-align: left;
     
 }
+/* == Perguntas == */
+.prgsete {
+    margin-bottom: 5px;
+}
+
 
 /* ============================== MEDIA QUERY ================================= */
 @media only screen and (max-width: 480px){
